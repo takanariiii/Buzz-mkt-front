@@ -2,12 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import './index.css';
 import Home from './components/home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <BrowserRouter>
+ <BrowserRouter>
     <Switch>
       <Route ecact path="/" component={Home} />
     </Switch>
