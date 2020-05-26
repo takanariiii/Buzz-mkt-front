@@ -8,6 +8,7 @@ import SiteImage from 'img/Buzz-mkt-Top-Logo.png';
 import GridItem from 'components/grid/gridItem'
 import GridContainer from 'components/grid/gridContainer'
 import Parallax from 'components/parallax/parallax'
+import RankingTab from 'components/ranking/rankingTab'
 
 import styles from "assets/jss/material-kit-react/views/components.js";
 
@@ -43,7 +44,9 @@ export default function Components(props) {
                     </GridContainer>
                 </div>
             </Parallax>
-            <div className="Home_main">
+            <div align="center">
+                <h3>Twitterトレンドランキング</h3>
+                <RankingTab />
             </div>
         </div>
     )
